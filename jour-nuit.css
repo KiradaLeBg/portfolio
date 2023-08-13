@@ -1,0 +1,123 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+body
+{
+  font-family: Montserrat;
+  background-color: #F4EEE0;
+}
+
+/* NAVIGATION*/
+.flex-nav
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 2em;
+  padding-right: 7em;
+  padding-left: 7em;
+  
+}
+
+.flex-ul
+{
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+}
+
+.flex-nav a
+{
+  color: #333533;
+}
+
+.logo-coconut
+{
+  font-weight: 900;
+  font-size: 2.5em;
+  color: #333533;
+}
+
+.ici
+{
+  font-weight: 700;
+}
+
+/* SECTION 1*/
+
+section
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+
+h1
+{
+  font-size: 600%;
+  font-weight: 800;
+  color: #333533;
+  text-align: center;
+}
+
+iframe
+{
+  margin: auto;
+  top: 0;
+  left: 0;
+  border: 1em solid white;
+}
+
+.projects {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.project {
+  background-color: #fff;
+  padding: 40px; /* Increase padding for bigger squares */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 45%; /* Adjust the width for each project */
+  text-align: center;
+}
+
+.project a {
+  text-decoration: none;
+  color: #333533;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.project p {
+  color: #555;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
